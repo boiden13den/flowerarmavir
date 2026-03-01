@@ -1,0 +1,147 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "slug": "rozovaya-nezhnost",
+      "name": "Розовая нежность",
+      "category": "romantic",
+      "price": 2500,
+      "images": ["https://images.unsplash.com/photo-1606800052052-a08af7148866?w=800"],
+      "description": "Нежный букет из розового зефира с декором из атласных лент",
+      "composition": "15 зефирок ручной работы, атласные ленты, упаковка крафт",
+      "size": "Высота 30 см, диаметр 25 см",
+      "care": "Хранить в сухом месте при температуре 18-22°C. Срок годности 14 дней.",
+      "isNew": true,
+      "isBestseller": true
+    },
+    {
+      "id": 2,
+      "slug": "lavandovaya-mechta",
+      "name": "Лавандовая мечта",
+      "category": "romantic",
+      "price": 2800,
+      "images": ["https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=800"],
+      "description": "Изысканный букет в лавандовых тонах для особенных моментов",
+      "composition": "17 зефирок, декоративные элементы, коробка",
+      "size": "Высота 35 см, диаметр 28 см",
+      "care": "Хранить в сухом месте при температуре 18-22°C. Срок годности 14 дней.",
+      "isNew": false,
+      "isBestseller": true
+    },
+    {
+      "id": 3,
+      "slug": "mini-radost",
+      "name": "Мини радость",
+      "category": "mini",
+      "price": 1200,
+      "images": ["https://images.unsplash.com/photo-1558636508-e0db3814bd1d?w=800"],
+      "description": "Компактный букет для приятного сюрприза",
+      "composition": "7 зефирок, мини-упаковка",
+      "size": "Высота 20 см, диаметр 15 см",
+      "care": "Хранить в сухом месте при температуре 18-22°C. Срок годности 14 дней.",
+      "isNew": true,
+      "isBestseller": false
+    },
+    {
+      "id": 4,
+      "slug": "svadebnaya-skazka",
+      "name": "Свадебная сказка",
+      "category": "wedding",
+      "price": 4500,
+      "images": ["https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800"],
+      "description": "Роскошный букет для самого важного дня",
+      "composition": "25 зефирок премиум качества, жемчужный декор, атласные ленты",
+      "size": "Высота 45 см, диаметр 35 см",
+      "care": "Хранить в сухом месте при температуре 18-22°C. Срок годности 14 дней.",
+      "isNew": false,
+      "isBestseller": true
+    },
+    {
+      "id": 5,
+      "slug": "yarkiy-prazdnik",
+      "name": "Яркий праздник",
+      "category": "holiday",
+      "price": 3200,
+      "images": ["https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=800"],
+      "description": "Яркий микс цветов для праздничного настроения",
+      "composition": "20 разноцветных зефирок, праздничная упаковка",
+      "size": "Высота 32 см, диаметр 30 см",
+      "care": "Хранить в сухом месте при температуре 18-22°C. Срок годности 14 дней.",
+      "isNew": true,
+      "isBestseller": false
+    },
+    {
+      "id": 6,
+      "slug": "korobka-schastya",
+      "name": "Коробка счастья",
+      "category": "box",
+      "price": 2900,
+      "images": ["https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=800"],
+      "description": "Элегантная композиция в дизайнерской коробке",
+      "composition": "18 зефирок, премиум коробка, декор",
+      "size": "Коробка 25x25x15 см",
+      "care": "Хранить в сухом месте при температуре 18-22°C. Срок годности 14 дней.",
+      "isNew": false,
+      "isBestseller": true
+    },
+    {
+      "id": 7,
+      "slug": "vesennee-nastroenie",
+      "name": "Весеннее настроение",
+      "category": "holiday",
+      "price": 2600,
+      "images": ["https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800"],
+      "description": "Свежий букет в пастельных весенних тонах",
+      "composition": "16 зефирок, весенний декор",
+      "size": "Высота 30 см, диаметр 26 см",
+      "care": "Хранить в сухом месте при температуре 18-22°C. Срок годности 14 дней.",
+      "isNew": true,
+      "isBestseller": false
+    },
+    {
+      "id": 8,
+      "slug": "romanticheskiy-vecher",
+      "name": "Романтический вечер",
+      "category": "romantic",
+      "price": 3500,
+      "images": ["https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800"],
+      "description": "Изысканный букет для романтического свидания",
+      "composition": "22 зефирки, красные акценты, бархатная лента",
+      "size": "Высота 38 см, диаметр 32 см",
+      "care": "Хранить в сухом месте при температуре 18-22°C. Срок годности 14 дней.",
+      "isNew": false,
+      "isBestseller": true
+    }
+  ],
+  "categories": [
+    { "id": "all", "name": "Все букеты", "slug": "all" },
+    { "id": "romantic", "name": "Романтические", "slug": "romantic" },
+    { "id": "wedding", "name": "Свадебные", "slug": "wedding" },
+    { "id": "holiday", "name": "Праздничные", "slug": "holiday" },
+    { "id": "mini", "name": "Мини-букеты", "slug": "mini" },
+    { "id": "box", "name": "В коробке", "slug": "box" }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "name": "Анна М.",
+      "rating": 5,
+      "text": "Заказывала букет на день рождения подруги. Она была в восторге! Зефир очень вкусный, а оформление просто волшебное. Доставка в Армавире быстрая.",
+      "date": "2024-02-15"
+    },
+    {
+      "id": 2,
+      "name": "Дмитрий К.",
+      "rating": 5,
+      "text": "Отличный подарок для любимой! Качество на высоте, все свежее. Рекомендую всем в Армавире!",
+      "date": "2024-02-10"
+    },
+    {
+      "id": 3,
+      "name": "Елена В.",
+      "rating": 5,
+      "text": "Заказывала свадебный букет. Превзошли все ожидания! Спасибо огромное за красоту и вкус!",
+      "date": "2024-01-28"
+    }
+  ]
+}
